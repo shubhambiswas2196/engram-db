@@ -1,0 +1,27 @@
+# Rust
+target/
+Cargo.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+.venv/
+build/
+dist/
+*.egg-info/
+
+# Engram Data (Don't upload local DBs)
+*_knowledge_base/
+*_memory/
+store.mnemo
+.fastembed_cache/
+# Node.js
+node_modules/
+*.node
+
+# Build artifacts
+*.whl
+*.tar.gz
