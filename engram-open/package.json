@@ -1,0 +1,24 @@
+{
+  "name": "engram-open",
+  "version": "1.0.0",
+  "description": "Engram is a high-performance, local-first memory database designed specifically for AI agents and RAG (Retrieval-Augmented Generation) applications. It is built in Rust for speed and provides native Python bindings for ease of use.",
+  "main": "index.node",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "napi": {
+    "binaryName": "engram",
+    "package": {
+      "name": "engram-db"
+    }
+  },
+  "devDependencies": {
+    "@napi-rs/cli": "^3.5.1"
+  }
+}

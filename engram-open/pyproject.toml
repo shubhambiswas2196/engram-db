@@ -1,0 +1,28 @@
+[build-system]
+requires = ["maturin>=1.0,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "engram-db"
+version = "0.1.0"
+description = "High-performance memory database for LLMs"
+readme = "README.md"
+authors = [
+    { name = "shubhambiswastechshu", email = "shubham.b@techshu.in" }
+]
+license = { text = "MIT" }
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "License :: OSI Approved :: MIT License",
+]
+
+[tool.maturin]
+# The Python module name is "engram", matching #[pymodule] fn engram in lib.rs
+module-name = "engram"
+features = ["python"]
+
+[project.urls]
+Homepage = "https://github.com/shubhambiswastechshu/engram"
+Repository = "https://github.com/shubhambiswastechshu/engram"
