@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "High-performance memory database for LLMs"
 readme = "README.md"
 authors = [
-    { name = "shubhambiswastechshu", email = "shubham.b@techshu.in" }
+    { name = "shubhambiswas2196", email = "shubham.b@techshu.in" }
 ]
 license = { text = "MIT" }
 requires-python = ">=3.8"
@@ -24,5 +24,5 @@ module-name = "engram"
 features = ["python"]
 
 [project.urls]
-Homepage = "https://github.com/shubhambiswastechshu/engram"
-Repository = "https://github.com/shubhambiswastechshu/engram"
+Homepage = "https://github.com/shubhambiswas2196/engram-db"
+Repository = "https://github.com/shubhambiswas2196/engram-db"

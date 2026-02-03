@@ -2,11 +2,11 @@
 name = "engram"
 version = "0.1.0"
 edition = "2021"
-authors = ["shubhambiswastechshu <shubham.b@techshu.in>"]
+authors = ["shubhambiswas2196 <shubham.b@techshu.in>"]
 description = "High-performance, local-first memory database for LLMs."
 license = "MIT"
-homepage = "https://github.com/shubhambiswastechshu/engram"
-repository = "https://github.com/shubhambiswastechshu/engram"
+homepage = "https://github.com/shubhambiswas2196/engram-db"
+repository = "https://github.com/shubhambiswas2196/engram-db"
 readme = "README.md"
 
 [lib]

@@ -18,4 +18,10 @@ dist/
 *_memory/
 store.mnemo
 .fastembed_cache/
-.ipynb_checkpoints/
+# Node.js
+node_modules/
+*.node
+
+# Build artifacts
+*.whl
+*.tar.gz
